@@ -1,0 +1,63 @@
+{% include 'Calvin/header.html' %}
+
+<section class="s-content s-content--no-top-padding">
+
+    <div class="row" style="padding: 2rem;">
+        <div class="column large-12">
+            <h2>search result: <strong style="color: #000;">"{{ query }}"</strong></h2>
+        </div>
+    </div>
+
+    <div class="s-bricks">
+        <div class="masonry">
+            <div class="bricks-wrapper h-group">
+                <div class="grid-sizer"></div>
+                <div class="lines"><span></span><span></span><span></span></div>
+
+                {% for article in results %}
+                <article class="brick entry" data-aos="fade-up">
+                    <div class="entry__thumb">
+                        <a href="{% url 'article_detail' article.slug %}" class="thumb-link">
+                            <img src="{{ article.image.url }}"
+                                 srcset="{{ article.image.url }} 1x, {{ article.image.url }} 2x"
+                                 alt="{{ article.title }}">
+                        </a>
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <h1 class="entry__title">
+                                <a href="{% url 'article_detail' article.slug %}">{{ article.title }}</a>
+                            </h1>
+                            <div class="entry__meta">
+                                <span class="byline">Author<span class="author">{{ article.author }}</span></span>
+                                <span class="cat-links">
+                                    {% for category in article.categories.all %}
+                                        <a href="{% url 'category' category.slug %}">{{ category.name }}</a>{% if not forloop.last %}, {% endif %}
+                                    {% empty %}
+                                        <a href="#"></a>
+                                    {% endfor %}
+                                </span>
+                            </div>
+                        </div>
+                        <div class="entry__excerpt">
+                            <p>
+                                {% if article.summary %}
+                                    {{ article.summary }}
+                                {% else %}
+                                    {{ article.content|striptags|truncatewords:25 }}
+                                {% endif %}
+                            </p>
+                        </div>
+                        <a class="entry__more-link" href="{% url 'article_detail' article.slug %}">Read More</a>
+                    </div>
+                </article>
+                {% empty %}
+                <p style="padding: 2rem; font-size: 1.2rem;" >No results were found that match your search.</p>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+
+</section>
+
+{% include 'Calvin/footer.html' %}

@@ -1,0 +1,19 @@
+
+MIT License / رخصة MIT
+
+Copyright (c) 2025
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction...
+
+تم منح الإذن لأي شخص للحصول على نسخة من هذا البرنامج والوثائق المرتبطة به ("البرنامج")، للتعامل
+مع البرنامج دون قيود، بما في ذلك الحق في الاستخدام، النسخ، التعديل، الدمج، النشر، التوزيع، الترخيص الفرعي و/أو بيع نسخ من البرنامج...
+
+⚠️ Disclaimer / إخلاء مسؤولية:
+This software is provided "as is", without warranty of any kind...
+يتم توفير هذا البرنامج كما هو، دون أي ضمان من أي نوع...
+
+Template Credit:
+The design is based on the free Calvin Template (© 2020) by StyleShout
+التصميم مستوحى من قالب Calvin المجاني (© 2020) من StyleShout

@@ -1,0 +1,85 @@
+{% include 'Calvin/header.html' %}
+
+<section class="s-content">
+
+    <!-- Header -->
+    <div class="s-pageheader">
+        <div class="row">
+            <div class="column large-12">
+                <h1 class="page-title">
+                    <span class="page-title__small-type">type </span>
+                    Video Post
+                </h1>
+            </div>
+        </div>
+    </div>
+
+    <!-- Masonry Articles -->
+    <div class="s-bricks">
+        <div class="masonry">
+            <div class="bricks-wrapper h-group">
+
+                <div class="grid-sizer"></div>
+                <div class="lines"><span></span><span></span><span></span></div>
+
+                {% for article in page_obj %}
+                <article class="brick entry" data-aos="fade-up">
+                    <div class="entry__thumb">
+                        <a href="{% url 'single-video' article.slug %}" class="thumb-link">
+                            {% if article.image %}
+                            <img src="{{ article.image.url }}" alt="{{ article.title }}">
+                            {% endif %}
+                        </a>
+                    </div>
+                    <div class="entry__text">
+                        <div class="entry__header">
+                            <h1 class="entry__title">
+                                <a href="{% url 'single-video' article.slug %}">{{ article.title }}</a>
+                            </h1>
+                            <div class="entry__meta">
+                                <span class="byline">By: <span class="author">{{ article.author }}</span></span>
+                                <span class="cat-links">
+                                    {% for cat in article.categories.all %}
+                                        <a href="{% url 'category' cat.slug %}">{{ cat.name }}</a>{% if not forloop.last %}, {% endif %}
+                                    {% endfor %}
+                                </span>
+                            </div>
+                        </div>
+                        <div class="entry__excerpt">
+                            <p>{{ article.summary }}</p>
+                        </div>
+                        <a class="entry__more-link" href="{% url 'single-video' article.slug %}">المزيد</a>
+                    </div>
+                </article>
+                {% empty %}
+                <p class="center" style="padding: 2rem;">لا توجد مقالات فيديو بعد.</p>
+                {% endfor %}
+
+            </div>
+        </div>
+
+<div class="s-content__pagenav">
+    {% if previous_article %}
+    <div class="prev-nav">
+        <a href="{% url 'article_detail' previous_article.slug %}" rel="prev">
+            <span>السابق</span>
+            {{ previous_article.title }}
+        </a>
+    </div>
+    {% endif %}
+
+    {% if next_article %}
+    <div class="next-nav">
+        <a href="{% url 'article_detail' next_article.slug %}" rel="next">
+            <span>التالي</span>
+            {{ next_article.title }}
+        </a>
+    </div>
+    {% endif %}
+</div> <!-- end s-content__pagenav -->
+
+
+    </div> <!-- end s-bricks -->
+
+</section>
+{% include 'Calvin/footer.html' %}
