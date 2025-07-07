@@ -1,8 +1,10 @@
 # 📘 مشروع مدونة شخصية بـ Django / Personal Blog Project with Django
 ## كيفية تشغيل المشروع 
-pip install -r requirements.txt
-python manage.py migrate
-python manage.py runserver
+###  pip install -r requirements.txt
+
+###  python manage.py migrate
+
+###  python manage.py runserver
 
 
 ## 🇸🇦 بالعربية
