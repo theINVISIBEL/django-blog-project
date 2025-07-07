@@ -41,40 +41,66 @@ python manage.py runserver
 ![Screenshot](images/2025-07-06_21-08.png)
 
 
+
+
 ![Screenshot](images/2025-07-06_21-07_2.png)
+
+
 
 
 ![Screenshot](images/2025-07-06_21-07_1.png)
 
 
+
+
 ![Screenshot](images/2025-07-06_21-07.png)
+
+
 
 
 ![Screenshot](images/2025-07-06_21-02.png)
 
 
+
+
 ![Screenshot](images/2025-07-06_21-00_1.png)
+
+
 
 
 ![Screenshot](images/2025-07-06_21-00.png)
 
 
+
+
 ![Screenshot](images/2025-07-06_20-59.png)
+
+
 
 
 ![Screenshot](images/2025-07-06_18-08.png)
 
 
+
+
 ![Screenshot](images/2025-07-06_18-07.png)
+
+
 
 
 ![Screenshot](images/2025-07-06_18-06_1.png)
 
 
+
+
 ![Screenshot](images/2025-07-06_18-06.png)
 
 
+
+
 ![Screenshot](images/2025-07-06_18-05.png)
+
+
 
 ---
 
