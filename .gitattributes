@@ -1,1 +1,13 @@
+# اجعل GitHub يركّز على Python
 *.py linguist-detectable=true
+
+# تجاهل ملفات التصميم
+*.css linguist-detectable=false
+*.scss linguist-detectable=false
+*.js linguist-detectable=false
+*.html linguist-detectable=false
+
+# تجاهل المجلدات التي تحتوي على ملفات تصميم
+static/** linguist-detectable=false
+templates/** linguist-detectable=false
+assets/** linguist-detectable=false
