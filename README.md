@@ -34,63 +34,25 @@ python manage.py runserver
 
 
 
-## 🖼 لقطات من المشروع
-![لقطة]({PROJECT_ROOT}/images/2025-07-06_21-08.png)
+## 📸 لقطات من المشروع | Screenshots
 
-![لقطة]({PROJECT_ROOT}/images/2025-07-06_21-07_2.png)
+### 👇 صور من واجهة الموقع:
 
-![لقطة]({PROJECT_ROOT}/images/2025-07-06_21-07_1.png)
-
-![لقطة]({PROJECT_ROOT}/images/2025-07-06_21-07.png)
-
-![لقطة]({PROJECT_ROOT}/images/2025-07-06_21-02.png)
-
-![لقطة]({PROJECT_ROOT}/images/2025-07-06_21-00_1.png)
-
-![لقطة]({PROJECT_ROOT}/images/2025-07-06_21-00.png)
-
-![لقطة]({PROJECT_ROOT}/images/2025-07-06_20-59.png)
-
-![لقطة]({PROJECT_ROOT}/images/2025-07-06_18-08.png)
-
-![لقطة]({PROJECT_ROOT}/images/2025-07-06_18-07.png)
-
-![لقطة]({PROJECT_ROOT}/images/2025-07-06_18-06_1.png)
-
-![لقطة]({PROJECT_ROOT}/images/2025-07-06_18-06.png)
-
-![لقطة]({PROJECT_ROOT}/images/2025-07-06_18-05.png)
-
+![Screenshot](images/2025-07-06_21-08.png)
+![Screenshot](images/2025-07-06_21-07_2.png)
+![Screenshot](images/2025-07-06_21-07_1.png)
+![Screenshot](images/2025-07-06_21-07.png)
+![Screenshot](images/2025-07-06_21-02.png)
+![Screenshot](images/2025-07-06_21-00_1.png)
+![Screenshot](images/2025-07-06_21-00.png)
+![Screenshot](images/2025-07-06_20-59.png)
+![Screenshot](images/2025-07-06_18-08.png)
+![Screenshot](images/2025-07-06_18-07.png)
+![Screenshot](images/2025-07-06_18-06_1.png)
+![Screenshot](images/2025-07-06_18-06.png)
+![Screenshot](images/2025-07-06_18-05.png)
 
 ---
-
-## 🖼 Screenshots from the Project
-![Screenshot]({PROJECT_ROOT}/images/2025-07-06_21-08.png)
-
-![Screenshot]({PROJECT_ROOT}/images/2025-07-06_21-07_2.png)
-
-![Screenshot]({PROJECT_ROOT}/images/2025-07-06_21-07_1.png)
-
-![Screenshot]({PROJECT_ROOT}/images/2025-07-06_21-07.png)
-
-![Screenshot]({PROJECT_ROOT}/images/2025-07-06_21-02.png)
-
-![Screenshot]({PROJECT_ROOT}/images/2025-07-06_21-00_1.png)
-
-![Screenshot]({PROJECT_ROOT}/images/2025-07-06_21-00.png)
-
-![Screenshot]({PROJECT_ROOT}/images/2025-07-06_20-59.png)
-
-![Screenshot]({PROJECT_ROOT}/images/2025-07-06_18-08.png)
-
-![Screenshot]({PROJECT_ROOT}/images/2025-07-06_18-07.png)
-
-![Screenshot]({PROJECT_ROOT}/images/2025-07-06_18-06_1.png)
-
-![Screenshot]({PROJECT_ROOT}/images/2025-07-06_18-06.png)
-
-![Screenshot]({PROJECT_ROOT}/images/2025-07-06_18-05.png)
-
 
 ---
 
